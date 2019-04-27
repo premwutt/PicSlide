@@ -1,0 +1,94 @@
+img {
+	width: 848px;
+	height: 480px;
+	position: relative;
+	max-width: 80%;
+	max-height: 30%;
+	
+
+}
+
+body {
+	animation-name: fade-in;
+	animation-duration: 0.7s;
+
+}
+
+.animated {
+	animation-name: slide-left;
+	animation-duration: 0.5s;
+}
+
+@keyframes img-fade-out {
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+
+@keyframes fade-in {
+	from {opacity:0;}
+	to {opacity:1;}
+}
+
+
+
+.slideshow {
+	margin: 0 auto;
+	border: 1px solid white;
+	text-align: center;
+	min-width: 50%;
+	border-radius: 5px;
+	background: rgb(230, 230, 255);
+	
+}
+
+.circle {
+	text-align: center;
+}
+
+.circle button {
+	/*background: #cccccc;*/
+	/*border: 2px solid black;*/
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	opacity: 1;
+	margin: 5px ;
+
+
+}
+
+.circle button:hover {
+	opacity:0.7;
+}
+
+.circle button:active {
+	opacity: 0.4;
+}
+
+.arrow {
+	width:50px;
+	height:50px;
+	float:right;
+	/*overflow:hidden;*/
+	margin-top: 13em;
+}
+
+.arrow:hover {
+	opacity: 0.3;
+}
+.arrow:active {
+	opacity: 0.6;
+}
+
+#left-arrow {
+	float:left;
+}
+
+#right-arrow {
+	float:right;
+}

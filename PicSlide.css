@@ -1,0 +1,32 @@
+img {
+	width: 500px;
+	height: 300px;
+	position: relative;
+
+
+}
+
+#show-left {
+	overflow:hidden;
+	width: 300px;
+	max-width: 20%;
+
+}
+
+#show-center {
+	max-width: 40%;
+	display: inline;
+}
+
+#show-right {
+	width: 300px;
+	max-width: 20%;
+
+}
+
+.slideshow {
+	margin: 0 auto;
+	border: 1px solid black;
+	text-align: center;
+
+}
